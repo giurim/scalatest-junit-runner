@@ -1,4 +1,4 @@
-# ScalaTest Junit 5 runner
+# ScalaTest JUnit 5 runner
 [![Tests](https://github.com/helmethair-co/scalatest-junit-runner/workflows/Test/badge.svg)](https://github.com/helmethair-co/scalatest-junit-runner/actions?query=workflow%3A%22Test%22+branch%3Amaster+event%3Apush) [![codecov](https://codecov.io/gh/helmethair-co/scalatest-junit-runner/branch/master/graph/badge.svg)](https://codecov.io/gh/helmethair-co/scalatest-junit-runner)  [![Maven Central](https://maven-badges.herokuapp.com/maven-central/co.helmethair/scalatest-junit-runner/badge.svg)](https://maven-badges.herokuapp.com/maven-central/co.helmethair/scalatest-junit-runner)
 
 
@@ -18,8 +18,10 @@
 
 ### Gradle
 version >= 4.5
-This library allows to run scalatest on the new JUnit Platform (JUnit 5) 
-To run Scalatest on the old JUnit Vintage (JUnit 4) platform use the [gradle-scalatest](https://plugins.gradle.org/plugin/com.github.maiflai.scalatest) Gradle plugin.
+
+* This library allows to run scalatest on the new JUnit Platform (JUnit 5) 
+
+* To run Scalatest on the old JUnit Vintage (JUnit 4) platform use the [gradle-scalatest](https://plugins.gradle.org/plugin/com.github.maiflai.scalatest) Gradle plugin.
 
 gradle.properties
 ```properties
@@ -118,10 +120,9 @@ See [example maven project](https://github.com/helmethair-co/scalatest-junit-run
 
 ### JUnit console
 
-Add the library to the classpath and run your test
+Add the library to the classpath and run your test.
 
-
-## Built With
+## Built with
 
 * [ScalaTest](http://www.scalatest.org)
 * [Kotlin](http://kotlinlang.org/) - Kotlin DSL for Gralde
